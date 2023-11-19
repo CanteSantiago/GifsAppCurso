@@ -41,7 +41,7 @@ this.http.get<SearchResponse>(`${this.serviceUrl}/search`,{params,})
 .subscribe((resp)=>{
 
   this.gifsList= resp.data;
-  console.log({gif: this.gifsList});
+  // console.log({gif: this.gifsList});
 })
 
 // const resp = await fetch('https://api.giphy.com/v1/gifs/search?api_key=fkEwBDXKIlX5TkwpMxBkM2srWWcJgvmv&q=valorant&limit=10')
